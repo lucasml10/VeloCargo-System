@@ -16,6 +16,14 @@ A aplicação permite controlar operações logísticas desde o cadastro de clie
 
 Os dados são armazenados em arquivos JSON, garantindo a persistência das informações entre diferentes execuções do sistema.
 
+
+## 🖥️ Demonstração do sistema
+
+### Menu principal
+
+![Menu principal do VeloCargo System](docs/images/menu-principal.png)
+
+---
 ## ⚙️ Funcionalidades
 
 ### Gestão de clientes e frota
