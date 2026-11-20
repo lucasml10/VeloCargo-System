@@ -23,6 +23,10 @@ Os dados são armazenados em arquivos JSON, garantindo a persistência das infor
 
 ![Menu principal do VeloCargo System](docs/images/menu-principal.png)
 
+### Relatório da frota
+
+![Relatório da frota do VeloCargo System](docs/images/relatorio-frota.png)
+
 ---
 ## ⚙️ Funcionalidades
 
