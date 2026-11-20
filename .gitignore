@@ -1,0 +1,23 @@
+# Arquivos do macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Arquivos temporarios e logs
+*.log
+*.tmp
+*.swp
+
+# Configuracoes pessoais de editores
+.vscode/
+.idea/
+
+# Dependencias PHP
+/vendor/
+
+# Arquivos de backup
+*_backup.php
+*_backup.json
+
+# Arquivos temporarios de testes
+dados/teste_*.json

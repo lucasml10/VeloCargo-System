@@ -1,0 +1,114 @@
+{
+    "clientes": [
+        {
+            "nome": "Joao da Silva",
+            "documento": "12345678901",
+            "enderecoColeta": "Rua das Flores, 100",
+            "tipoCliente": "Comum"
+        },
+        {
+            "nome": "Empresa ABC Ltda",
+            "documento": "12345678000199",
+            "enderecoColeta": "Rua das Empresas, 100",
+            "tipoCliente": "Corporativo"
+        }
+    ],
+    "veiculos": [
+        {
+            "placa": "ABC1234",
+            "modelo": "Honda CG 160",
+            "anoFabricacao": 2023,
+            "capacidadeMaxima": 20,
+            "disponivel": true,
+            "categoria": "motocicleta",
+            "cilindrada": 160,
+            "bauTermico": true,
+            "custoPorKm": 2.5
+        },
+        {
+            "placa": "DEF5678",
+            "modelo": "Fiat Fiorino",
+            "anoFabricacao": 2022,
+            "capacidadeMaxima": 1000,
+            "disponivel": false,
+            "categoria": "utilitario",
+            "volumeInterno": 3.5,
+            "eixoReforcado": true,
+            "custoPorKm": 4.5
+        },
+        {
+            "placa": "GHI9012",
+            "modelo": "Mercedes-Benz Atego",
+            "anoFabricacao": 2022,
+            "capacidadeMaxima": 5000,
+            "disponivel": false,
+            "categoria": "caminhao_refrigerado",
+            "temperaturaMinima": -10,
+            "certificadoSanitario": true,
+            "custoPorKm": 7
+        }
+    ],
+    "pedidos": [
+        {
+            "codigo": "VC-1001",
+            "documentoCliente": "12345678901",
+            "destinatario": "Loja Central",
+            "distanciaKm": 30,
+            "status": "Veiculo alocado",
+            "volumes": [
+                {
+                    "descricao": "Caixas de produtos",
+                    "peso": 50,
+                    "natureza": "carga geral"
+                }
+            ],
+            "placaVeiculo": "DEF5678",
+            "historico": [
+                {
+                    "dataHora": "20/11/2026 16:37:36",
+                    "status": "Pedido registrado",
+                    "descricao": "Pedido criado no sistema VeloCargo."
+                },
+                {
+                    "dataHora": "20/11/2026 16:37:36",
+                    "status": "Veiculo alocado",
+                    "descricao": "Veiculo DEF5678 (Fiat Fiorino) alocado ao pedido."
+                }
+            ]
+        },
+        {
+            "codigo": "VC-1002",
+            "documentoCliente": "12345678000199",
+            "destinatario": "Hospital Central",
+            "distanciaKm": 120,
+            "status": "Veiculo alocado",
+            "volumes": [
+                {
+                    "descricao": "Equipamentos eletronicos",
+                    "peso": 15,
+                    "natureza": "carga frágil"
+                },
+                {
+                    "descricao": "Medicamentos",
+                    "peso": 10,
+                    "natureza": "carga refrigerada"
+                }
+            ],
+            "placaVeiculo": "GHI9012",
+            "historico": [
+                {
+                    "dataHora": "20/11/2026 16:37:36",
+                    "status": "Pedido registrado",
+                    "descricao": "Pedido criado no sistema VeloCargo."
+                },
+                {
+                    "dataHora": "20/11/2026 16:37:36",
+                    "status": "Veiculo alocado",
+                    "descricao": "Veiculo GHI9012 (Mercedes-Benz Atego) alocado ao pedido."
+                }
+            ]
+        }
+    ],
+    "proximoCodigo": 1003,
+    "totalPedidos": 2
+}
